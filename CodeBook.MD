@@ -12,7 +12,7 @@ The Analysis is performed in the code using the following steps.
 5. Loads training activity data file and assigns column names to it
 6. Merges train_activity,train_train_subject, train_data through cbind
 
-7. It applies step 4-7 for Test data in the same order using variables test_subjects, test_activity, test_data
+7. It applies step 3-6 for Test data in the same order using variables test_subjects, test_activity, test_data
 
 8. At this point we have two datasets merged_train_data and merged_test_data
 9. Both are merged again through rbind so that training and testing data is combined
